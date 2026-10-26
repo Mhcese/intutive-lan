@@ -1,0 +1,15 @@
+{
+  "brand": "Decidia",
+  "tagline": "L'IA qui ose te dire non.",
+  "empty": {
+    "title": "Rien ici pour l'instant",
+    "body": "Lance ta première analyse, ça prend moins de 3 minutes.",
+    "cta": "Analyser une décision"
+  },
+  "error": {
+    "title": "Ça n'a pas marché",
+    "body": "Ce n'est pas toi, c'est nous. Réessaie dans un instant.",
+    "retry": "Réessayer"
+  },
+  "theme": { "toggle": "Changer de thème" }
+}
