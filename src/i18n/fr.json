@@ -1,0 +1,192 @@
+{
+  "brand": "Decidia",
+  "tagline": "L'IA qui ose te dire non.",
+  "empty": {
+    "title": "Rien ici pour l'instant",
+    "body": "Lance ta première analyse, ça prend moins de 3 minutes.",
+    "cta": "Analyser une décision"
+  },
+  "error": {
+    "title": "Ça n'a pas marché",
+    "body": "Ce n'est pas toi, c'est nous. Réessaie dans un instant.",
+    "retry": "Réessayer"
+  },
+  "theme": {
+    "toggle": "Changer de thème"
+  },
+  "landing": {
+    "nav": {
+      "why": "Pourquoi Decidia",
+      "how": "Comment ça marche",
+      "pricing": "Tarifs",
+      "faq": "FAQ",
+      "cta": "Essayer"
+    },
+    "hero": {
+      "badge": "Océan Bleu · Modèles mentaux · Avocat du diable",
+      "title_a": "L'IA qui ose",
+      "title_b": "te dire non.",
+      "subtitle": "Decidia analyse tes décisions avec les modèles mentaux des meilleurs stratèges et te dit la vérité, même quand elle dérange.",
+      "cta": "Analyser ma décision gratuitement",
+      "cta2": "Voir un rapport",
+      "note": "1 analyse gratuite, sans inscription. Rapport en moins de 3 minutes."
+    },
+    "why": {
+      "title": "Pourquoi ChatGPT ne suffit pas",
+      "subtitle": "Un chatbot te répond. Decidia te challenge.",
+      "cards": [
+        {
+          "problem": "Il dit oui à tout",
+          "answer": "Decidia joue l'avocat du diable contre sa propre recommandation et te dit quand ton idée est mauvaise."
+        },
+        {
+          "problem": "Des conseils génériques",
+          "answer": "2 à 3 questions de contexte, puis 3 à 5 modèles mentaux choisis pour ta situation."
+        },
+        {
+          "problem": "Il oublie tout",
+          "answer": "Un journal de décisions garde chaque analyse, chaque pari et chaque résultat."
+        },
+        {
+          "problem": "Il ne vérifie rien",
+          "answer": "À J+14 et J+30, Decidia te demande si ça a marché et ajuste le plan."
+        }
+      ]
+    },
+    "demo": {
+      "title": "Un rapport qui prend position",
+      "subtitle": "Voici un exemple illustratif de ce que tu reçois.",
+      "question": "« Je veux quitter mon CDI pour lancer une agence de design. »",
+      "confidence": "Confiance",
+      "reco_label": "Recommandation",
+      "reco": "Ne démissionne pas encore. Valide 3 clients payants en gardant ton poste.",
+      "devil_label": "Avocat du diable",
+      "devil": "Tu n'as aucun client signé. Ton « marché » est une hypothèse, pas un fait. Si personne ne paie en 90 jours, que fais-tu ?",
+      "models": [
+        "Inversion",
+        "Paris asymétriques",
+        "Biais du survivant"
+      ],
+      "errc": [
+        [
+          "Éliminer",
+          "Les devis sur-mesure"
+        ],
+        [
+          "Réduire",
+          "Les frais fixes"
+        ],
+        [
+          "Augmenter",
+          "La spécialisation"
+        ],
+        [
+          "Créer",
+          "Un abonnement design"
+        ]
+      ]
+    },
+    "how": {
+      "title": "Comment ça marche",
+      "steps": [
+        {
+          "title": "Décris ton problème",
+          "body": "Quelques phrases suffisent. Pas de compte requis."
+        },
+        {
+          "title": "Réponds à 2-3 questions",
+          "body": "Contexte, contraintes, objectif. Tu peux passer."
+        },
+        {
+          "title": "Reçois la vérité",
+          "body": "Diagnostic, options chiffrées, avocat du diable, plan d'action."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Tarifs simples",
+      "subtitle": "Commence gratuitement. Passe Pro quand tu veux décider mieux, plus souvent.",
+      "free": {
+        "name": "Gratuit",
+        "price": "0 €",
+        "period": "",
+        "features": [
+          "1 analyse sans inscription",
+          "Rapport complet",
+          "Avocat du diable"
+        ],
+        "cta": "Essayer gratuitement"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "29 €",
+        "period": "/mois",
+        "features": [
+          "Analyses illimitées (usage raisonnable)",
+          "Grille Océan Bleu (ERRC)",
+          "Journal de décisions",
+          "Export PDF",
+          "Suivi J+14 / J+30"
+        ],
+        "cta": "Rejoindre la liste d'attente",
+        "badge": "Le plus choisi"
+      },
+      "founder": {
+        "name": "Offre fondateur",
+        "price": "Tarif réduit à vie",
+        "period": "",
+        "features": [
+          "Pour les 100 premiers",
+          "Tout le plan Pro",
+          "Prix bloqué pour toujours"
+        ],
+        "cta": "Réserver ma place"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": [
+        {
+          "q": "Decidia remplace-t-il un conseil juridique, financier ou médical ?",
+          "a": "Non. Decidia est une aide à la décision. Pour un sujet médical ou juridique grave, il te renvoie vers un professionnel."
+        },
+        {
+          "q": "Mes données sont-elles protégées ?",
+          "a": "Tes analyses sont privées. Tu peux exporter ou supprimer toutes tes données à tout moment, conformément au RGPD."
+        },
+        {
+          "q": "Que fait Decidia que ChatGPT ne fait pas ?",
+          "a": "Il te pose des questions de contexte, choisit des modèles mentaux, attaque sa propre recommandation, garde un journal et suit le résultat réel."
+        },
+        {
+          "q": "Combien de temps dure une analyse ?",
+          "a": "Moins de 3 minutes, questions comprises."
+        },
+        {
+          "q": "Puis-je résilier quand je veux ?",
+          "a": "Oui, en un clic depuis ton espace, sans engagement."
+        },
+        {
+          "q": "Pour qui est Decidia ?",
+          "a": "D'abord les entrepreneurs : lancement, pricing, recrutement, pivot. Les autres profils arrivent ensuite."
+        }
+      ]
+    },
+    "waitlist": {
+      "title": "Rejoins la liste d'attente",
+      "subtitle": "Les 100 premiers obtiennent un tarif réduit à vie.",
+      "email": "Ton e-mail",
+      "submit": "Je réserve ma place",
+      "consent": "J'accepte d'être contacté(e) au sujet de Decidia. Désinscription possible à tout moment.",
+      "success": "C'est noté. Tu recevras un e-mail dès l'ouverture.",
+      "already": "Tu es déjà inscrit(e). Merci !",
+      "invalid": "Cette adresse e-mail n'a pas l'air valide.",
+      "error": "Impossible de t'inscrire pour l'instant. Réessaie dans un instant.",
+      "consent_required": "Coche la case pour continuer."
+    },
+    "footer": {
+      "disclaimer": "Decidia est une aide à la décision, pas un conseil juridique, financier ou médical.",
+      "rights": "© 2026 Decidia"
+    }
+  }
+}

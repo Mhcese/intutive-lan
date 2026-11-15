@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Design tokens — mode clair par défaut, sombre via .dark */
+:root {
+  --background: #fafafb;
+  --surface: #ffffff;
+  --surface-2: #f3f4f7;
+  --border: #e4e6eb;
+  --foreground: #0b0d12;
+  --muted: #5b6275;
+  --ocean-from: #2f6bff;
+  --ocean-to: #00c2ff;
+  --ocean: #1f57e6; /* texte/liens, contraste AA sur clair */
+  --amber: #b26b00;
+  --amber-bg: #fff5e0;
+  --success: #15803d;
+  --success-bg: #e8f7ee;
+  --danger: #c2271f;
+  --ring: #2f6bff;
+}
+
+.dark {
+  --background: #0b0d12;
+  --surface: #12151c;
+  --surface-2: #181c25;
+  --border: #232834;
+  --foreground: #edeff5;
+  --muted: #9aa1b2;
+  --ocean: #5b8dff;
+  --amber: #f5a524;
+  --amber-bg: #2a1f0a;
+  --success: #22c55e;
+  --success-bg: #0d2418;
+  --danger: #f2706a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-ocean: var(--ocean);
+  --color-ocean-from: var(--ocean-from);
+  --color-ocean-to: var(--ocean-to);
+  --color-amber: var(--amber);
+  --color-amber-bg: var(--amber-bg);
+  --color-success: var(--success);
+  --color-success-bg: var(--success-bg);
+  --color-danger: var(--danger);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument), ui-serif, Georgia, serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --ease-out-soft: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@layer base {
+  * { border-color: var(--border); }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@utility bg-ocean-gradient {
+  background-image: linear-gradient(135deg, var(--ocean-from), var(--ocean-to));
+}
+@utility text-ocean-gradient {
+  background-image: linear-gradient(135deg, var(--ocean-from), var(--ocean-to));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@utility font-display {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+@utility text-h1 { font-size: clamp(2.25rem, 1.5rem + 3.5vw, 4rem); line-height: 1.05; }
+@utility text-h2 { font-size: clamp(1.75rem, 1.3rem + 2vw, 2.75rem); line-height: 1.1; }
+@utility text-h3 { font-size: clamp(1.25rem, 1.1rem + 0.8vw, 1.75rem); line-height: 1.2; }
+@utility skeleton {
+  background: linear-gradient(90deg, var(--surface-2) 25%, var(--border) 50%, var(--surface-2) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+  border-radius: var(--radius-sm);
+}
+@keyframes shimmer { to { background-position: -200% 0; } }
